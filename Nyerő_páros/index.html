@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.is"></script>
+    <style>
+        .m1{background-color: #3D9970;
+            color: black;}
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li> <a href="index.html"> <div class="m1">Home</div></a> </li>
+        <li> <a href="Movies.html"><div class="m2">Movies</div></a> </li>
+        <li> <a href="login.html"><div class="m3">Log in</div></a></li>
+        <li> <a href="info.html"> <div class="m4">Contact</div> </a></li>
+    </ul>
+</nav>
+
+<div class="bod">
+    <div class="leftcolumn">
+        <div class="box">
+
+            <div class="cim">Választott téma</div>
+            <div class="datum">...</div>
+            <hr>
+            <p>Egy filmekről szóló oldal elkészítését választottuk, mert mind a ketten otthon érezzük magunkat ebben a témában.</p>
+            <p>A movies menüpont alatt található egy top 10 lista, illetve műfajonként a kedvenc filmeink, amelyekhez külön oldalon leírás is van. Készült egy kereső és egy film hozzáadó form (ezek nem csinálnak ugyan semmit, ert nem tettünk az oldal mögé adatbázist).</p>
+            <p>Készült bejelentkezési oldal is. Illetve az adatainkat a contact menüvel lehet elérni.</p>
+            <p>Szabvány: HTML5</p>
+            <a href="projektle+şr+ís.html">Projekt pontozásos html</a>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="box">
+            <h1>Search Movie</h1>
+            <form action="Movies.html">
+                <label><input type="text" name="nev" placeholder="Title"> </label>
+                <select name="cast">
+                    <option selected disabled>Select</option>
+                    <option value="animation">Animation</option>
+                    <option value="horror">Horror</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="action">Action</option>
+                    <option value="thriller">Thriller</option>
+                </select> <br><br><br>
+                <input type="submit" value="Search"/>
+            </form>
+        </div>
+        <div class="box">
+            <a href="addmovie.html" style="text-align: center"> Add Movie</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

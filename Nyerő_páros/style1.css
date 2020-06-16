@@ -1,0 +1,356 @@
+body{
+    background-color: #2b2b2b;
+    font-family: sans-serif;
+    color: #aaa69d;
+    margin: 0;
+
+}
+.m1, .m2, .m3,.m4,.m5{
+    border-radius: 0px 0px 10px 10px;
+    border: 2px solid #3D9970;
+    background-color: #2b2b2b;
+    color: #3D9970;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    top: 0px;
+    position: fixed;
+    z-index: 1000;
+    transition: background-color 0.5s, color 0.5s;
+    transition-timing-function: ease-in;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.m1:hover, .m2:hover, .m3:hover,.m4:hover,.m5:hover{
+    background-color: #3D9970;
+    color: black;
+}
+.m1{
+    left: 100px;
+    text-orientation: sideways;
+}
+.m2{
+    left: 226px;
+}
+.m3{
+    left: 352px;
+}
+.m4{
+    left: 478px;
+}
+.m5{
+    left: 604px;
+}
+
+.bod{
+    left: 80px;
+    right: 15%;
+    top: 60px;
+    position: absolute;
+}
+.bod:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.leftcolumn{
+    width: 65%;
+    float: left;
+    padding: 20px;
+
+}
+
+.rightcolumn{
+    width: 27%;
+    padding: 20px;
+    float: left;
+}
+.box {
+    border-radius: 10px;
+    border: 2px solid #3D9970;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+}
+.box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+  background-color: #2b2b2b;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+hr{
+    height: 1px;
+    background-color: #3e3e3e;
+    border: 1px solid transparent;
+    padding: 0;
+    box-shadow: 0px 0px 7px #3D9970;
+}
+
+.cim{
+    width: 70%;
+    line-height: 50px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    float: left;
+    font-weight: bolder;
+    text-shadow: 0px 0px 7px #3D9970;
+}
+.datum{
+    width: 30%;
+    font-size: 13px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    float: left;
+    text-align: right;
+
+    text-shadow: 0px 0px 10px #3D9970;
+}
+table{
+    color: white;
+    margin-left: 100px;
+}
+caption{
+    font-size: 30px;
+}
+tr{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    margin-left: auto;
+}
+h2{
+    margin-top: 100px;
+    font-size: 30px;
+}
+h3{
+    margin-top: 30px;
+     text-align: center;
+     margin-bottom: 30px;
+     display: block;
+    font-size: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     color: #3D9970;
+ }
+a{
+    text-decoration: none;
+    line-height: 20px;
+    color:darkgrey;
+    /*margin-left: 100px;*/
+    /*margin-top: 50px*/
+}
+a:hover {
+    color:#3D9970 ;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 20px;
+}
+th{
+    margin-top:50px;
+}
+nav ul li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    /*border-collapse: separate;*/
+    /*border-spacing: 10px;*/
+}
+
+tr {
+    border-bottom: 1px solid #dddddd;
+}
+table {
+    width: 60%;
+}
+th,td {
+    height: 30px;
+    text-align: center;
+    color: #3D9970;
+    background-color:#2b2b2b ;
+    vertical-align: center;
+}
+th, td {
+    padding: 20px;
+}
+
+caption{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #aaa69d;
+
+}
+h1{
+    text-align: center;
+
+}
+h1:hover{
+    color: #3D9970;
+}
+.box input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    height: 20px;
+    color: white;
+    font-size: 16px;
+}
+.box input{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #2b2b2b;
+}
+
+h2{
+    text-align: center;
+}
+
+iframe{
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box select{
+    background-color: #2b2b2b;
+    color: #3D9970;
+    padding: 10px;
+    width: 280px;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid #3D9970;
+
+}
+.box input[type="submit"]{
+    background-color: #2b2b2b;
+    color: #3D9970;
+    width: 100px;
+    border: 2px solid #3D9970;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.box input[type="submit"]:hover{
+    background-color: #3D9970;
+    color: black;
+}
+
+.loginbox{
+    width: 320px;
+    height: 500px;
+    background: #000000;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox{
+    width: 400px;
+    height: 800px;
+    background: #000000;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:darkgrey;
+}
+
+.loginbox a:hover{
+    color: #ffc107;
+}
+
+select{
+    background-color: #2b2b2b;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid beige;
+}
+img {
+    width: 100%;
+    margin: 0px;
+}
+.i2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+#back{
+    width: 25px;
+}
+details{
+    margin: 30px 20px 30px 20px;
+}
+summary{
+    font-size: 22px;
+    color: #3D9970;
+}
+.film{
+    margin-left: 50px;
+}
